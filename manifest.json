@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "abiVersion": 1,
+  "id": "bitcoincash",
+  "name": "Bitcoin Cash",
+  "ticker": "BCH",
+  "version": "0.1.9",
+  "kind": "utxo",
+  "networkId": "bitcoincash-mainnet",
+  "decimals": 8,
+  "capabilities": [],
+  "runtime": {
+    "type": "legacy"
+  },
+  "nativeRoute": "bitcoincash-wallet",
+  "coin": {
+    "id": "bitcoincash",
+    "name": "Bitcoin Cash",
+    "ticker": "BCH",
+    "networkId": "bitcoincash-mainnet",
+    "supportsMemo": false,
+    "satsPerCoin": 100000000,
+    "utxoReadProfile": "electrum",
+    "cryptoParams": {
+      "p2pkhPrefix": 0,
+      "p2shPrefix": 5,
+      "wifPrefix": 128,
+      "derivationPath": "m/44'/145'/0'/0/0",
+      "addressType": "p2pkh",
+      "txVersion": 2,
+      "cashaddrPrefix": "bitcoincash",
+      "sighashStyle": "bip143-forkid"
+    }
+  },
+  "icon": "icon.svg"
+}
